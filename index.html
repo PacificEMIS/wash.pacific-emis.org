@@ -1,31 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Pacific WASH Comprehensive Survey</title>
 
-    <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  </head>
-  <body>
-    <nav class="blue darken-3" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo white-text">Pacific WASH Comprehensive Survey</a>
+<head>
+  <meta charset="utf-8">
+  <title>Pacific Education Management Information System (Pacific EMIS)</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="vendor/animate-css/animate.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Materialize -->
+  <link rel="stylesheet" href="vendor/materialize/css/materialize.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/stylesheet.css">
+
+<!--  <meta name="theme-color" content="#fafafa">-->
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browser-upgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!---------------------------------age Pre-Loader--------------------------------->
+  <!-- <div id="page-loader"> -->
+  <!--   <div class="animated bounceInDown"> -->
+  <!--     <div class="loader"> -->
+  <!--       <div class="folding-cube"> -->
+  <!--         <div class="cube1 cube"></div> -->
+  <!--         <div class="cube2 cube"></div> -->
+  <!--         <div class="cube4 cube"></div> -->
+  <!--         <div class="cube3 cube"></div> -->
+  <!--       </div> -->
+  <!--   </div> -->
+  <!--   </div> -->
+  <!-- </div> -->
+
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img class="responsive-img" id="logo" src="img/logo.svg" alt=""></a>
+      
+      <!-- <ul class="right hide-on-med-and-down">
+           <li><a href="#">Navbar Link</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul> -->
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  
+  <!---------------------------------About--------------------------------->
+  <section id="about">
+    <div class="container">
+      <h4 class="section-title center uppercase"><span>Prototype</span> Pacific EMIS WASH Survey</h4>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s6 m4">
+	  <img class="responsive-img wow fadeIn" data-wow-delay=".2s" src="img/survey-tool.png">
+        </div>
+        <div class="col s6 m8">
+          <h6 class="subtitle">About the Survey</h6>
+          <p>this is a comprehensive WASH survey that was developed in collaboration with UNICEF. It is now part of the Pacific EMIS Education Survey Tool, an Android App used for survey like data collection.</p>
+	  <a class="waves-effect waves-light btn-small center" href="contact.html">Contact Us</a>
+        </div>
       </div>
-    </nav>
-
+    </div>
 
     <div class="container">
-      <div class="section">
+      <div class="">
 
         <h5>Basic Survey Data</h5>
 
         <ul class="collapsible">
           <li>
-            <div class="collapsible-header green lighten-5">Inspector</div>
+            <div class="collapsible-header blue lighten-5">Inspector</div>
             <div class="collapsible-body">
               <div class="row">
                 <div class="input-field col s6">
@@ -44,7 +102,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header green lighten-5">School</div>
+            <div class="collapsible-header blue lighten-5">School</div>
             <div class="collapsible-body">
 
               <div class="row">
@@ -81,7 +139,7 @@
         
         <ul class="collapsible">
           <li>
-            <div class="collapsible-header green lighten-3">Water</div>
+            <div class="collapsible-header blue lighten-3">Water</div>
             <div class="collapsible-body">
               <p>CW.W.1: What is the source of water for the school?</p>
               <table>
@@ -279,7 +337,7 @@
           </li>
 
           <li>
-            <div class="collapsible-header green lighten-3">Sanitation</div>
+            <div class="collapsible-header blue lighten-3">Sanitation</div>
             <div class="collapsible-body">
               
               <div class="row">
@@ -396,7 +454,7 @@
           </li>
           
           <li>
-            <div class="collapsible-header green lighten-3">Hygiene</div>
+            <div class="collapsible-header blue lighten-3">Hygiene</div>
             <div class="collapsible-body">
               
               
@@ -429,7 +487,7 @@
 
         <ul class="collapsible">
           <li>
-            <div class="collapsible-header green lighten-1">Water</div>
+            <div class="collapsible-header blue lighten-1">Water</div>
             <div class="collapsible-body">
 
               <div class="input-field col s12">
@@ -774,7 +832,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header green lighten-1">Sanitation</div>
+            <div class="collapsible-header blue lighten-1">Sanitation</div>
             <div class="collapsible-body">
 
               <div class="input-field col s12">
@@ -1341,7 +1399,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header green lighten-1">Hygiene</div>
+            <div class="collapsible-header blue lighten-1">Hygiene</div>
             <div class="collapsible-body">
 
               <div class="input-field col s12">
@@ -1572,7 +1630,7 @@
             </div>
           </li>
           <!-- <li>
-               <div class="collapsible-header green lighten-1">Staff Quarters</div>
+               <div class="collapsible-header blue lighten-1">Staff Quarters</div>
                <div class="collapsible-body">
 
                <div class="input-field col s12">
@@ -1658,7 +1716,7 @@
                </div>
                </li> -->
           <li>
-            <div class="collapsible-header green lighten-1">Operation and Maintenance</div>
+            <div class="collapsible-header blue lighten-1">Operation and Maintenance</div>
             <div class="collapsible-body">
 
               <div class="input-field col s12">
@@ -1879,7 +1937,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header green lighten-1">Curriculumn and School Activities</div>
+            <div class="collapsible-header blue lighten-1">Curriculumn and School Activities</div>
             <div class="collapsible-body">
 
               <div class="input-field col s12">
@@ -2058,7 +2116,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header green lighten-1">School WASH Kits</div>
+            <div class="collapsible-header blue lighten-1">School WASH Kits</div>
             <div class="collapsible-body">
 
               <div class="input-field col s12">
@@ -2134,47 +2192,32 @@
       </div>
       <br><br>
     </div>
-
-    <footer class="page-footer orange">
-      <!-- <div class="container">
-           <div class="row">
-           <div class="col l5 s12">
-           <h5 class="white-text">Contacts</h5>
-           <ul class="red-text">
-           <li><a class="white-text" href="#!">Cromwell Bacareza, UNICEF, Chief of UNICEF Field Office</a></li>
-           <li><a class="white-text" href="#!">Quennie Amor Go, UNICEF, Chuuk DOE Adviser</a></li>
-           <li><a class="white-text" href="#!">Weison Weital, NDOE, Data Manager</a></li>
-           <li><a class="white-text" href="#!">Ghislain Hachey, NDOE, Data and MIS Adviser</a></li>
-           <li><a class="white-text" href="#!">David Syne, NDOE, IT Officer</a></li>              
-           </ul>
-           </div>
-           <div class="col l3 s12">
-           <h5 class="white-text">Links</h5>
-           <ul class="red-text">
-           <li><a class="white-text" href="http://national.doe.fm/">National Department of Education</a></li>
-           <li><a class="white-text" href="https://www.unicef.org/">UNICEF</a></li>
-           </ul>
-           </div>
-           <div class="col l4 s12">
-           <h5 class="white-text">Design Specifications</h5>
-           <p class="grey-text text-lighten-4">This is a
-           specification document to works towards a commprehensive
-           WASH framework in the north Pacific. It is a project done in
-           collaboration between the FSM NDOE and UNICEF.</p>
-           </div>
-           </div>
-           </div> -->
-      <div class="footer-copyright">
-        <div class="container">
-          Based on UNICEF WASH Pacific Framework</a>
+    
+  </section>
+  <!---------------------------------Footer--------------------------------->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <p class="center">The content on this website, of which pacific-emis.org is the author, is licensed under a Creative Commons Attribution 4.0 International License. pacific-emis.org is not the author of any of the licenses reproduced on this site or licenses used in its software. Questions about the copyright in a license should be directed to the license steward.</p>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
+  <script src="vendor/modernizr/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="scripts/plugins.js"></script>
+  <script src="vendor/wow/wow.min.js"></script>
+  <script src="vendor/materialize/js/materialize.min.js"></script>
+  <script src="scripts/custom-script.js"></script>
 
-  </body>
+  <!--Google Analytics: change UA-XXXXX-Y to be your site's ID.-->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
 </html>
